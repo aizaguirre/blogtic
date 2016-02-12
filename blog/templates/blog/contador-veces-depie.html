@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+    <head>    	
+        <title>ermuaTIC</title>
+        <meta charset="UTF-8">           
+        <link href="css/styles.css" rel="stylesheet" media="screen"/>
+		<script type="text/javascript" src="javascript/contadormin.js"></script>
+    </head>
+    <body>
+        <div id="header">
+        	<img id="logo-ermua" src="images/logo zuribeltzez-01.png">
+        	<span id="hora">Equilibrio</span>
+        	<span id="fecha">Programa 3</span>
+        </div>        
+        <div id="content">      
+            <p class="mensaje">¿CUÁNTOS SEGUNDOS PODIDO HACER?</p>
+            <div id="contadormin">
+				<input type="button" id="number-change-button" value="-" onclick="subtract()"/>
+				<div id="minutos">
+					<p id="counter">0</p>
+				</div>
+				<input type="button" id="number-change-button" value="+" onclick="add()"/>
+			</div>
+			<a href="animo-depie.html"><p id="boton-no">HECHO</p></a>
+        </div>  
+          <div id="footer">
+            <a href="confirm-depie.html">
+           <div class="texto">Paso ANTERIOR</div>
+            </a>
+            <div class="pausa"></div>
+            <a href="index.html"><div class="salir">SALIR</div></a>
+        </div>   
+    </body>
+</html>

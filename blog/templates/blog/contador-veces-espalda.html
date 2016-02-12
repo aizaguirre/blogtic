@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+    <head>    	
+        <title>ermuaTIC</title>
+        <meta charset="UTF-8">           
+        <link href="css/styles.css" rel="stylesheet" media="screen"/>
+		<script type="text/javascript" src="javascript/contador.js"></script>
+    </head>
+    <body>
+        <div id="header">
+        	<img id="logo-ermua" src="images/logo zuribeltzez-01.png">
+        	<span id="hora">Calentamiento</span>
+        	<span id="fecha">Programa 3</span>
+        </div>        
+        <div id="content">      
+            <p class="mensaje">¿CUÁNTAS HAS PODIDO HACER?</p>
+            <div id="contador">
+				<input type="button" id="number-change-button" value="-" onclick="subtract()"/>
+				<div id="veces">
+					<p id="counter">0 VECES</p>
+				</div>
+				<input type="button" id="number-change-button" value="+" onclick="add()"/>
+			</div>
+			<a href="animo-espalda.html"><p id="boton-no">HECHO</p></a>
+        </div>  
+          <div id="footer">
+            <a href="confirm-espalda.html">
+             <div class="texto">Paso ANTERIOR</div>
+            </a>
+            <div class="pausa"></div>
+            <a href="index.html"><div class="salir">SALIR</div></a>
+        </div>   
+    </body>
+</html>
